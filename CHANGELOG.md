@@ -1,3 +1,22 @@
+## 5.3.3
+fix [#1312](https://github.com/miguelpruivo/flutter_file_picker/issues/1312)
+## 5.3.2
+### Desktop (Windows)
+Bumps the dependency `win32` to 5.0.2 ([#1281](https://github.com/miguelpruivo/flutter_file_picker/pull/1281)). Thank you @frg2089!
+
+## 5.3.1
+
+Bump Dart SDK lower bound to <4.0.0 to support Dart 3
+
+## 5.3.0
+### Android
+Updates Gradle to version 7.5
+Adds the namespace property for compatibility with Gradle 8
+
+## 5.2.11
+### Desktop (Windows)
+Updates dependencies, including win32 bump to 4.1.3 ([#1255](https://github.com/miguelpruivo/flutter_file_picker/issues/1255)).
+
 ## 5.2.10
 ### Desktop (Windows)
 Fixes the bug that the result of the save-file dialog was incorrect when it was invoked with a long default file name but the user selected a file with a much short file name ([#1257](https://github.com/miguelpruivo/flutter_file_picker/issues/1257)).
